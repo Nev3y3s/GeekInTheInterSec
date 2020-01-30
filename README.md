@@ -1,2 +1,4 @@
-# GeekInTheInterSec
-for Information Exchange in InterSec Lab
+# InterSec 정보 저장소 < Root >
+
+# 사용규칙
+) Root 밑에 [이름/아이디]로 폴더 만들고 자신 소유 폴더만 사용
