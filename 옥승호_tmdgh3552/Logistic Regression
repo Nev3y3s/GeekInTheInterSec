@@ -1,0 +1,28 @@
+##Cell 1##
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import csv
+
+
+df = pd.read_csv('data_1.csv')
+df.head()
+
+sns.countplot(x='admit', data = df)
+plt.show()
+
+##Cell 2##
+from sklearn.linear_model import LogisticRegression
+from sklearn.cross_validation import train_test_split
+
+Y=df['admit']
+X=df.iloc[:,2:32]
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3)
+
+log_clf = LogisticRegression()
+log_clf.fit(X_train, Y_train)
+log_clf.score(X_test, Y_test)
+
+##Cell 3##
+pd.read_csv('data_1.csv',delimiter = ',')
