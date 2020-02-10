@@ -1,7 +1,7 @@
 # Reversy
 > Completed 
->> logic 
->> graphic 
+>> logic  
+>> graphic  
 >> input
 
 > Not Completed
