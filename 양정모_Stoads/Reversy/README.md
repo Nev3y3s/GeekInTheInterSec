@@ -1,7 +1,7 @@
 # Reversy
 > Completed
-> > logic
-> > graphic
-> > input
+>> logic
+>> graphic
+>> input
 > Not Completed
-> AI with A* algorithm
+>> AI with A* algorithm
