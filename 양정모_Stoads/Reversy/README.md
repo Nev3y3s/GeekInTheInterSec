@@ -2,6 +2,6 @@
 > Completed  
 >> logic  
 >> graphic  
->> input
-> Not Completed  
+>> input  
+Not Completed  
 >> AI with A* algorithm  
